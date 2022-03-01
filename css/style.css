@@ -2,22 +2,36 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body{
   background-color:rgb(246, 248, 249);
 }
 
 header .top{
   width: 100%;
   background-color: white;
+  margin-bottom: 50px;
 }
 
-header .top img{
-  background-color: white;
+.top img{
+  vertical-align: middle;
   width: 70px;
   height: 70px;
 }
 
 .container{
-  width: 70%;
+  text-align: center;
+  width: 1000px;
   background-color: white;
 }
 
+.buttons{
+  margin-bottom: 2px;
+  border-radius: 3px;
+}
+
+.button-task{
+  background-color: rgb(71, 173, 241);
+  border-radius: 3px;
+}

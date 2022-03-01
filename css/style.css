@@ -8,6 +8,8 @@ body{
   background-color:rgb(246, 248, 249);
 }
 
+
+/* Header */
 header .top{
   width: 100%;
   background-color: white;
@@ -22,33 +24,77 @@ header .top{
 
 .top span{
   font-family: 'Times New Roman', Times, serif;
-  font-size: x-large;
+  font-size: 30px;
+  vertical-align: middle;
 }
 
-.container{
-  
-  width: 1000px;
- ;
+
+/* Main */
+main{
+  margin: 0 auto;
+  width: 70%;
 }
 
 .buttons{
   padding: 10px;
-  margin: 2px;
   margin-bottom: 2px;
   border-radius: 3px;
   background-color: white
 }
 
-.button{
+#button{
   background-color: rgb(71, 173, 241);
   border-radius: 3px;
 }
 
 .options{
+  border-radius: 3px;
   background-color: white
 }
 
-.task{
+.tittle{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 20px;
+}
+
+p{
+  font-size: 20px;
+  margin: 3px;
+}
+
+.task{
+  padding: 20px;
+}
+
+p span{
+  display: inline-block;
+  width: 15%;
+  height: 30%;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.edi{
+  background-color: rgb(60, 167, 233);
+}
+
+.q1{
+  background-color: rgb(156, 114, 228);
+}
+
+.rec{
+  background-color: rgb(100, 192, 169);
+}
+
+.mob{
+  background-color: rgb(242, 158, 51);
+}
+
+.web{
+  background-color: rgb(216, 99, 161); 
+}
+
+.sal{
+  background-color: rgb(176, 201, 38);
 }

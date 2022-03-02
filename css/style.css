@@ -6,76 +6,115 @@
 
 body{
   background-color:rgb(246, 248, 249);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 
 /* Header */
-header .top{
-  width: 100%;
+header{
   background-color: white;
   margin-bottom: 50px;
+  padding: 10px 20px;
 }
 
-.top img{
+.logo{
   vertical-align: middle;
-  width: 70px;
-  height: 70px;
 }
 
-.top span{
-  font-family: 'Times New Roman', Times, serif;
+.text{
+  vertical-align: middle;
   font-size: 30px;
-  vertical-align: middle;
+  font-weight: 900;
 }
 
 
-/* Main */
+/* Main-Top */
 main{
   margin: 0 auto;
   width: 70%;
 }
 
-.buttons{
-  padding: 10px;
+.container{
+  padding: 10px 40px;
   margin-bottom: 2px;
-  border-radius: 3px;
-  background-color: white
-}
-
-#button{
-  background-color: rgb(71, 173, 241);
-  border-radius: 3px;
-}
-
-.options{
-  border-radius: 3px;
-  background-color: white
-}
-
-.tittle{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 20px;
-}
-
-p{
-  font-size: 20px;
-  margin: 3px;
-}
-
-.task{
-  padding: 20px;
-}
-
-p span{
-  display: inline-block;
-  width: 15%;
-  height: 30%;
-  text-align: center;
   border-radius: 5px;
-  font-size: 12px;
+  background-color: white
 }
 
-.edi{
+.button{
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.full{
+  background-color: #47ADF1;
+  color: white;
+  border: 1px solid #47ADF1;
+  ;
+}
+
+.empty{
+  background-color: white;
+  color: lightgray;
+  border: 1px solid #C5CBD0;
+}
+
+/* Main-List */
+.tasks{
+  background-color: white;
+  padding: 10px 40px;
+  border-radius: 5px;
+}
+
+ul{
+  list-style: none;;
+}
+
+.tasks h3::before{
+  content: "\25BE";
+} 
+
+.tasks li{
+  padding: 10px 0;
+}
+
+.cricle::before{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  line-height: 15px;
+  font-size: 10px;
+ 
+}
+
+.circle.check::before{
+  content: "\2713";
+  color: green;
+  border: 1px solid green;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.circle.not::before{
+  content: "\2718";
+  color: red;
+  border: 1px solid red;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.tag{
+  color: white;
+  margin: 3px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 10px;
+}
+
+.editor{
   background-color: rgb(60, 167, 233);
 }
 

@@ -10,45 +10,73 @@
 
 <body>
 
+  <!-- Header -->
   <header>
-    <div class="top">
-      <img src="img/Logo.png" alt="logo">
-      <span><strong>TOBOOLIST</strong></span>
-    </div>
+    <img class="logo" src="img/Logo.png" alt="logo">
+    <span class="text">TOBOOLIST</span>
   </header>
 
 
   <main>
+    <!-- Main-Top -->
+    <div class="container">
 
-    <div class="buttons">
-      <button id="button">Add task</button>
-      <button>Add section</button>
+      <div class="top">
+        <button class="button full">Add task</button>
+        <button class="button empty">Add section</button>
+      </div>
+
     </div> 
-      
-    <section class="options">
+    
+    <!-- Main-list -->
+    <div class="tasks">
+      <ul>
+        <li>
+          <h3>New Task</h3>
+          <ul>
+            <li>
+              <span class="circle check">Quartrtly Newsletter <span class="tag editor">Editorial</span></span>
+            </li>
+          </ul>
+        </li>
 
-      <div class="task">
-        <span class="tittle">&#9662 New Task</span>
-        <p>Quartertly Newsletters <span class="edi">Editorial</span></p>
-      </div>
+        <li>
+          <h3>Today</h3>
+          <ul>
+            <li>
+              <span class="circle check">Recruiting blog post<span class="tag editor">Editorial</span></span>
+            </li>
+            <li>
+              <span class="circle check">Mobile app launch<span class="tag q1">Q1 Goals</span></span>
+            </li>
+            <li>
+              <span class="circle not">Interview John H.<span class="tag rec">Recruiting</span></span>
+            </li>
+            <li>
+              <span class="circle check">Summit update to mobile storefronts<span class="tag mob">Mobile</span></span>
+            </li>
+          </ul>
+        </li>
 
-      <div class="task">
-        <span class="tittle">&#9662 Today</span>
-        <p>Recruiting blog spot <span class="edi">Editorial</span></p>
-        <p>Mobileapp launch <span class="q1">Q1 Goals</span></p>
-        <p>Interview John H. <span class="rec">Recruiting</span></p>
-        <p>Summit update to mobile storefonts <span class="mob">Mobile</span></p>
-      </div>
-
-      <div class="task">
-        <span class="tittle">&#9662 Up Coming</span>
-        <p>Schedule meeting with Alex</p>
-        <p>Homepage refresh <span class="web">Website</span></p>
-        <p>On board new Sales team members <span class="sal">Sales</span></p>
-        <p>Review editorial calendar <span class="edi">Editorial</span></p>
-      </div>
-
-    </section>
+        <li>
+          <h3>Upcoming</h3>
+          <ul>
+            <li>
+              <span class="circle not">Schedule meeting with Alex</span>
+            </li>
+            <li>
+              <span class="circle check">Homepage refresh<span class="tag web">Website</span></span>
+            </li>
+            <li>
+              <span class="circle check">Onboard new Sales team members<span class="tag sal">Sales</span></span>
+            </li>
+            <li>
+              <span class="circle check">Review editorial calendar<span class="tag editor">Editorial</span></span>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
     
   </main>
 
